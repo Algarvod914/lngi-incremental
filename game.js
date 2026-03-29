@@ -85,7 +85,7 @@ function updateText() { // Updates all text
     document.getElementById("at1").textContent = 1000-game.auto1.lv*50;
     document.getElementById("ac1").textContent = notate(O(10000).pow(O(game.auto1.lv).add(1)),1);
   } else {
-    document.getElementById("al1").textContent = "MAX";
+    document.getElementById("al1").textContent = "MAXED";
     document.getElementById("at1").textContent = "instant";
     document.getElementById("ac1").textContent = "Infinite";
   }
